@@ -17,8 +17,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-size: 100% auto;
+  height: 100vh;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -39,6 +39,10 @@
   opacity: .8;
   padding: 2em;
   width: 355px;
+}
+
+.card form {
+  display: flex;
 }
 
 .card input{
