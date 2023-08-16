@@ -46,7 +46,6 @@ export default function Weather() {
         }else if(photo == search){
           setBg(pics.results[Math.floor(Math.random() * 9) + 1].urls.raw) 
         }
-        //setBackState(pics)
         console.log(pics)
       })
   }, [photo])
