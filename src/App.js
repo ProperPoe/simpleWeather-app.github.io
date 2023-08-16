@@ -6,11 +6,11 @@ const page = Math.floor(Math.random() * 20) + 1
 
 export default function Weather() {
   const [weather, setWeather] = useState({});
-  const [city, setCity] = useState("Denver");
+  const [city, setCity] = useState("Colorado Springs");
   const [bg, setBg] = useState("");
   //const [backState, setBackState] = useState("");
   const [search, setSearch] = useState("");
-  const [photo, setPhoto] = useState("Denver")
+  const [photo, setPhoto] = useState("Colorado Springs")
 
   console.log(page)
  
@@ -41,7 +41,7 @@ export default function Weather() {
     fetch(`https://api.unsplash.com/search/photos?page=${page}&query=${photo}&client_id=${process.env.REACT_APP_BG_PIC}`)
       .then(res => res.json())
       .then(pics => {
-        if(photo === "Denver"){
+        if(photo === "Colorado Springs"){
           setBg(pics.results[Math.floor(Math.random() * 9) + 1].urls.raw)
         }else if(photo == search){
           setBg(pics.results[Math.floor(Math.random() * 9) + 1].urls.raw) 
