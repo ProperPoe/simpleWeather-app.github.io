@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/simpleWeather-app.github.io/static/css/main.00067371.css",
-    "main.js": "/simpleWeather-app.github.io/static/js/main.58aff26c.js",
+    "main.css": "/simpleWeather-app.github.io/static/css/main.008199b4.css",
+    "main.js": "/simpleWeather-app.github.io/static/js/main.f3534d4e.js",
     "index.html": "/simpleWeather-app.github.io/index.html",
-    "main.00067371.css.map": "/simpleWeather-app.github.io/static/css/main.00067371.css.map",
-    "main.58aff26c.js.map": "/simpleWeather-app.github.io/static/js/main.58aff26c.js.map"
+    "main.008199b4.css.map": "/simpleWeather-app.github.io/static/css/main.008199b4.css.map",
+    "main.f3534d4e.js.map": "/simpleWeather-app.github.io/static/js/main.f3534d4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.00067371.css",
-    "static/js/main.58aff26c.js"
+    "static/css/main.008199b4.css",
+    "static/js/main.f3534d4e.js"
   ]
 }
