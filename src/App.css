@@ -39,6 +39,7 @@
   opacity: .8;
   padding: 2em;
   width: 355px;
+  position: fixed;
 }
 
 .card form {
