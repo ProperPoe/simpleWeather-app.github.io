@@ -55,6 +55,7 @@ export default function Weather() {
       <div className='background' style={ { backgroundImage: `url('${bg}')`} }>
         <div className='card-container'>
         <div className='card'>
+          <h6>Enter a city to get the weather and an image of the city</h6>
         <form onSubmit={handleSubmit}>
         <input onChange={handleChange} type='search'/>
         <button className='btn-weather' onClick={handleClick} type='submit'>Search</button>

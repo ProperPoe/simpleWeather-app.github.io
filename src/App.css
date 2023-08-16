@@ -28,7 +28,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   padding-top: 300px;
   z-index: 99;
 }
@@ -43,8 +42,19 @@
   position: fixed;
 }
 
+.card h6{
+  color: white;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card form {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card input{
